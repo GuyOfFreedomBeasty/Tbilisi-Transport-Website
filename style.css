@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Regular Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Thin Roboto";
+    src: url("fonts/Roboto-Thin.ttf");
+}
+
+body{
+    font-family: Thin Roboto;
+    margin: 0px;
+}
+
+body div{
+    display: flex;
+}
+
+#title{
+    margin: 0;
+    font-size: 250%;
+    color: black;
+    background: lightgray;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Main */
+
+main {
+    display: inline-block;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 30px 10px;
+}
+
+main div h1 {
+    font-size: 220%;
+    margin: 0;
+}
+
+main div .info{
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+main div img {
+    margin-top: 20px;
+    height: auto;
+    width: 550px;
+    border-radius: 5px;
+    outline: 3px solid rgb(237, 237, 237);
+
+    vertical-align: top;
+}
+
+main div p{
+    font-family: Regular Roboto;
+
+    margin-left: 20px;
+
+    height: auto;
+    width: 550px;
+}
+
+/* Aside */
+
+aside{
+    background: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+    font-family: Regular Roboto;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 140px;
+    height: auto;
+}
+
+aside h2{
+    color: rgb(29, 29, 29);
+    margin: 0;
+    font-size: 140%;
+    margin-left: 5%;
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    margin-top: 5px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+aside ul a{
+    text-decoration: none;
+    color: white;
+}
+
+aside ul a li{
+    margin: 0;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 88, 88);
+    padding-left: 8.5px;
+}
+
+/* Misc */
+
+hr{
+    height: 1px;
+    background: rgb(166, 166, 166);
+}
